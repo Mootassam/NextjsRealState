@@ -19,6 +19,9 @@ import more from "./More.png";
 import point from "./“.png";
 import VectorFooter from "./VectorFooter.png";
 import dots from "./dots.png";
+import headerBackground from "./headerBackground.png";
+import localisation from "./localisation.png";
+import header from "./header.png";
 export {
   dots,
   vector,
@@ -41,4 +44,7 @@ export {
   precedent,
   more,
   point,
+  headerBackground,
+  localisation,
+  header,
 };
