@@ -1,0 +1,129 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  /* **** primary__color *****  */
+  --dark--blue: #091739;
+  --light--blue: #f5f5fa;
+  --hover: #6d8ae9;
+  --blue: #1c3887;
+  --gray: #dedede;
+  --white: #ffffff;
+  --black: #111111;
+
+  /****** Secondary Color ****** */
+  --background-offres: #f3f3fa;
+  --background-precedent: #dadaee;
+  --background-references: #f3f3fa;
+  --range: #a3b1e1;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  color: var(--dark--blue);
+}
+
+h1 {
+  font-size: 4.053125rem;
+  line-height: 5.39375rem;
+}
+h2 {
+  font-size: 3.2425rem;
+  line-height: 4.3125rem;
+}
+h3 {
+  font-size: 2.59375rem;
+  line-height: 3.45rem;
+}
+h4 {
+  font-size: 2.0751875rem;
+  line-height: 2.6rem;
+}
+
+h5 {
+  font-size: 1.328rem;
+  line-height: 1.75rem;
+}
+h6 {
+  font-size: 1.34375rem;
+  line-height: 1.76875rem;
+}
+
+p {
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  color: var(--dark--blue);
+}
+
+a {
+  font-size: 1.0625rem;
+  font-weight: 0.9375rem;
+  text-decoration: none;
+  color: var(--dark--blue);
+}
+a:hover {
+  color: var(--hover);
+}
+
+input {
+  border: 1px solid var(--gray);
+  color: var(--black);
+  padding: 17px 16px 11px 16px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+input:active {
+  border: 1px solid var(--blue);
+  outline: none;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+select {
+  outline: 1px solid var(--blue);
+  outline-offset: -1px;
+  color: var(--blue);
+  font-size: 17px;
+  line-height: 27px;
+  padding: 11px 20px 11px 16px;
+  border-radius: 4px;
+  background-color: var(--white);
+}
+
+textarea {
+  border: 1px solid var(--gray);
+  color: var(--black);
+  padding: 16px 0px 0px 16px;
+  border-radius: 4px;
+  font-size: 1rem;
+  height: 304px;
+  text-align: start;
+}
+textarea:active {
+  border: 1px solid var(--blue);
+  outline: none;
+}
